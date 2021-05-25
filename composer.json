@@ -1,0 +1,23 @@
+{
+    "name": "sxy/test",
+    "description": "this is test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shenxinyu",
+            "email": "shenxinyu@3ncto.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">= 5.6.0"
+    },
+    "autoload":{
+        "files": [
+            "src/P.php"
+        ],
+        "psr-4":{
+            "Hello\\":"src/"
+        }
+    }
+}
